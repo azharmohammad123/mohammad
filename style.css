@@ -1,0 +1,41 @@
+*{
+    padding: auto;
+    margin: auto;
+}
+body{
+    background-image: url(moon.png), url(night.jpg);
+    background-size: 150px , cover ;
+    background-repeat: no-repeat;
+    background-position: right 20% , 20%;
+}
+
+
+.az{
+    width: 300px ;
+    background-color: lemonchiffon;
+    padding: 10px;
+    margin: 30px auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* #n{
+    color: #a6583c;
+    background-color:#fae6b4 ;
+}
+
+p
+{
+    background-color:#97fdf8 ;
+}
+
+#ah{
+    color: #000855;
+    background-color:#f5b6fd ; 
+}
+
+#az{
+    color: #f307d3;
+    background-color:#fdfb97 ; 
+    font-family:Arial, ;
+} */

@@ -1,0 +1,28 @@
+*{
+    padding: auto;
+    margin: auto;
+}
+
+.circle{
+    height: 550px;
+    width: 550px;
+    margin: auto;
+    border-radius: 50%;
+    background-image:repeating-linear-gradient(315deg , rgb(4, 72, 95) 1%, red 2%);
+}
+.circle1{
+    height: 550px;
+    width: 550px;
+    margin: auto;
+    border-radius: 50%;
+    background-image:linear-gradient(315deg , rgb(4, 72, 95) , red );
+}
+.circle2{
+    height:1000px;
+    width: 1000px;
+    margin: auto;
+    border-radius: 200%;
+    background-image:repeating-radial-gradient(circle , violet 0%, #9222ab 5%,
+     #a650fa 5%, indigo 10%, #6e6eff 10%, blue 15%, #28eb48 15%, green 20%,
+     yellow 20%, #cfbc19 25%, orange 25%, #ffaa33 30%, #FF5C33 30%, red 35% );
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid{
+            width: 100%;
+            height: 1250px;
+            padding: 10px;
+            background-color:burlywood;
+            display: grid;
+            grid-template-columns: repeat(10,1fr);
+            grid-template-rows: repeat(12,1fr);
+            column-gap: 10PX;
+            row-gap: 10PX;
+        }
+        .grid-item{
+            /* width: 100px;
+            height: 100px; */
+            background-color: azure;
+            font-size: 40px;
+        }
+        .items1{
+            background-color: grey;
+            grid-column-start:4 ;
+            grid-column-end: 8;
+        }
+        .items2{
+            background-color: hotpink;
+            grid-column-start:3;
+            grid-column-end: 7;
+            grid-row-start:4 ;
+            grid-row-end:10 ;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="grid-item  items1">Azhar</div>
+        <div class="grid-item  items2">Shoaib</div>
+        <div class="grid-item  items3">Jamal</div>
+        <div class="grid-item  items4">Abu horaira</div>
+        <div class="grid-item  items5">Ehsan</div>
+        <div class="grid-item  items6">Hashim</div>
+        <div class="grid-item  items7">Gufaran</div>
+        <div class="grid-item  items8">Zeshan</div>
+        <div class="grid-item  items9">Ashhad</div>
+        <div class="grid-item  items10">Zaid</div>
+        <div class="grid-item  items11">Khesal</div>
+        <div class="grid-item  items12">Talha</div>
+    </div>
+</body>
+</html>
